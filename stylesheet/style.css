@@ -1,0 +1,108 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background-image: url(/images/bg.jpg);
+    background-size: cover;
+}
+
+.mid_board {
+    height: 500px;
+    width: 800px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 200px;
+    border-radius: 20px;
+    box-shadow: 5px 5px 10px;
+}
+
+.register {
+    width: 400px;
+    float: left;
+    height: 500px;
+}
+
+.login {
+    width: 400px;
+    float: left;
+    height: 500px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+.login h1 {
+    padding: 50px 0;
+    font-size: 2.5rem;
+}
+
+.login input {
+    padding: 5px 50px 5px 5px;
+    margin-bottom: 10px;
+    border: 2px black solid;
+    border-radius: 10px;
+}
+
+.image {
+    text-align: center;
+}
+
+.register_img {
+    border-radius: 100px;
+    height: 150px;
+    width: 150px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    box-shadow: 5px 5px 10px;
+}
+
+.submit-div {
+    text-align: center;
+    padding: 0 0 50px 0;
+}
+
+.register_submit {
+    background-color: rgb(0, 161, 8);
+    color: #fff;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 15px;
+}
+
+.register_submit:hover {
+    background-color: rgb(2, 117, 8);
+    color: #fff;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 15px;
+}
+
+.btn {
+    cursor: pointer;
+}
+
+.submit {
+    background-color: rgb(0, 161, 8);
+    color: #fff;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+.submit:hover {
+    background-color: rgb(2, 117, 8);
+    color: #fff;
+    border: none;
+    padding: 10px 100px;
+    border-radius: 15px;
+    margin-top: 25px;
+}
+
+h3 {
+    margin-top: 20px;
+    font-size: 0.8rem;
+    color: #000;
+}
